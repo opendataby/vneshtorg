@@ -1,0 +1,72 @@
+#logo {
+    display: block;
+    background-color: #2A2F4E;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: sans-serif;
+  width: 100%;
+}
+	article {
+		max-width: 800px;
+		margin-left: 40px;
+		font-size: 14px;
+		font-family: sans-serif;
+	}
+#legend text, #russia {
+	font-size: 12px;
+}
+
+#tables_menu span {
+	margin: 5px;
+	padding: 3px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+#tables_menu span.active {
+		background: #E14F4F;
+}
+
+#tables_menu {
+	margin-bottom: 10px;
+	align: middle;
+}
+
+#map {
+    border: 1px solid black;
+    width: 90%;
+
+}
+	#tooltip, #tooltip2, #home {
+  position: absolute;
+  max-width: 200px;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  pointer-events: none;
+  border: 1px solid black;
+}
+#tooltip.hidden, #tooltip2.hidden, #home.hidden {
+  display: none;
+}
+#tooltip > p, #tooltip2 > p, #home > p {
+	padding: 0;
+	margin: 0;
+	font-size: 10px;
+}
+
+
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 10px;
+	width: 90%;
+}
+th, td {
+	text-align: left;
+	padding: 3px;
+}
